@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.iconTheme": "material-icon-theme",
+	"editor.fontFamily": "'Ubuntu Mono'",
+	"terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+    "editor.fontSize": 15,
+	"editor.minimap.renderCharacters": false,
+
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": true,
+	"python.linting.flake8Enabled": true,
+	"python.linting.mypyEnabled": true,
+	"python.linting.mypyPath": "/usr/bin/mypy",
+
+	"window.menuBarVisibility": "toggle",
+	
+	"markdownlint.config": {
+		"MD013": false,
+		"MD033": false
+	},
+
+	"shellcheck.customArgs": [
+		"-x"
+	],
+	"shellcheck.exclude": [
+		"SC2155",
+		"SC2148"
+	],
+
+	"editor.renderWhitespace": "none",
+	"window.zoomLevel": 0,
+	"workbench.colorTheme": "Arc+ (Dark Blue)"
+}

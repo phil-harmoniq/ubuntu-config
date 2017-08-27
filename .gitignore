@@ -1,0 +1,16 @@
+# Ignore All
+*
+
+# Create exceptions for desired files
+!.gitignore
+!.bash_aliases
+!.vimrc
+
+# VS Code config
+!/.config
+/.config/*
+!/.config/Code
+/.config/Code/*
+!/.config/Code/User
+/.config/Code/User/*
+!/.config/Code/User/settings.json
