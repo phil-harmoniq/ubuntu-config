@@ -33,4 +33,4 @@ alias clear-crash-log='sudo rm /var/crash/*'
 [[ -d ~/.local/bin ]] && export PATH="$PATH:$HOME/.local/bin"
 
 # You may want to store any private environment variables in a seperate file
-[[ -f ~/.private_keys ]] && source ~/.private_keys
+[[ -f ~/.private_keys ]] && . ~/.private_keys

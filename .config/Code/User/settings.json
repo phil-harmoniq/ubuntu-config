@@ -9,7 +9,7 @@
 	"python.linting.enabled": true,
 	"python.linting.pylintEnabled": true,
 	"python.linting.flake8Enabled": true,
-	"python.linting.mypyEnabled": true,
+	"python.linting.mypyEnabled": false,
 	"python.linting.mypyPath": "/usr/bin/mypy",
 
 	"window.menuBarVisibility": "toggle",
@@ -26,8 +26,12 @@
 		"SC2155",
 		"SC2148"
 	],
+	"python.linting.pylintArgs": [
+		"--disable=C0111"
+	],
 
 	"editor.renderWhitespace": "none",
 	"window.zoomLevel": 0,
-	"workbench.colorTheme": "Arc+ (Dark Blue)"
+	"workbench.colorTheme": "Arc+ (Dark Blue)",
+	"python.linting.pylintPath": "pylint3"
 }
