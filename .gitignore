@@ -14,8 +14,3 @@
 !/.config/Code/User
 /.config/Code/User/*
 !/.config/Code/User/settings.json
-
-# Dconf backup
-!/.config/dconf
-/.config/dconf/*
-!/.config/dconf/user
