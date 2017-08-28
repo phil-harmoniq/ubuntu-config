@@ -15,8 +15,9 @@ user_color=$blue
 
 # User Prompt Style. Use powerline-go if installed, otherwise use ANSI prompt
 if [[ -f ~/.powerline/powerline-go-linux-amd64 ]] && [[ "$TERM" != "linux" ]]; then
+    mods="docker,venv,user,host,ssh,cwd,perms,hg,jobs,exit,root"
     function _update_ps1() {
-        PS1="$(~/.powerline/powerline-go -colorize-hostname -error $?)"
+        PS1="$(~/.powerline/powerline-go-linux-amd64 -modules $mods -colorize-hostname -error $?)"
     }
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 else
