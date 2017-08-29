@@ -1,4 +1,4 @@
-# ~/.bash_aliases is sourced by ~/bashrd
+# ~/.bash_aliases is sourced by ~/.bashrc
 
 # Colors from askubuntu.com
 reset=$(tput sgr0)
@@ -31,7 +31,7 @@ alias sys-update='sudo apt update && sudo apt upgrade -y'
 alias clear-crash-log='sudo rm /var/crash/*'
 
 # Ubuntu doesn't source ~/.local/bin but it's recommended to install user programs there
-[[ -d ~/.local/bin ]] && export PATH="$PATH:$HOME/.local/bin"
+[[ -d ~/.local/bin ]] && PATH="$HOME/.local/bin:$PATH"
 
 # You may want to store any private environment variables in a seperate file
 [[ -f ~/.private_keys ]] && . ~/.private_keys

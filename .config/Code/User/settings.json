@@ -32,6 +32,7 @@
 
 	"editor.renderWhitespace": "none",
 	"window.zoomLevel": 0,
-	"workbench.colorTheme": "Arc+ (Dark Blue)",
-	"python.linting.pylintPath": "pylint3"
+	"python.linting.pylintPath": "pylint3",
+	"workbench.colorCustomizations": {},
+	"workbench.colorTheme": "Arc+ (Dark Blue)"
 }
