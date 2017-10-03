@@ -26,4 +26,4 @@ Checks if [powerline-go](https://github.com/justjanne/powerline-go) is installed
 
 Checks if `~/.local/bin` exists and adds it to `$PATH` if true.
 
-Checks if `~/.pirvate_keys` exists and sources the environment variables if true.
+Checks if `~/.private_keys` exists and sources the environment variables if true.

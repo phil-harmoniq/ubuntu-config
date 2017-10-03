@@ -39,8 +39,14 @@
 		"SC2155",
 		"SC2148"
 	],
+	
+	  // Configure editor settings to be overridden for [yaml] language.
+	"[html]":  {
+		"editor.tabSize": 2
+	},
 
 	"workbench.colorCustomizations": {
 		
-	}
+	},
+	"scss.showErrors": true
 }
